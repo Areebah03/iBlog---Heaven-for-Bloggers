@@ -1,0 +1,80 @@
+@media screen and (max-width:980px) {
+    .cont2 img {
+        display: none;
+    }
+
+    nav {
+        flex-direction: column;
+        margin-bottom: 23px;
+    }
+
+    nav .right {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    nav .left form {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    nav .left form input {
+        width: 60vw;
+    }
+
+    nav .left form .btn {
+        width: 50vw;
+        margin-top: 10px;
+    }
+
+    .feature .feature-img img {
+        width: 70vw;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .feature-text {
+        width: 70vw;
+        text-align: center;
+    }
+
+    .year {
+        display: flex;
+        left: 2%;
+        top: 0.5%;
+    }
+
+    .year div {
+        margin: 0px 5px;
+        font-size: 12px;
+    }
+
+    .year p {
+        font-size: 15px;
+    }
+
+    .feature h1 {
+        padding-top: 47px;
+    }
+
+    footer {
+        padding-top: 35px;
+        display: block;
+        text-align: center;
+    }
+    .about-fea{
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    }
+    .cmain{
+        width: 94%;
+    }
+    .cfeature .cfeature-img img {
+        width: 80%;
+    }
+}

@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    /* background-color: red; */
+    width: 80vw;
+    /* height: 85px; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .right{
+    display: flex;
+    align-items: center;
+}
+nav .logo img{
+    width: 70px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: var(--font1);
+    padding: 0px 18px;
+    font-size: 18px;
+    color:black;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    transition: all 0.2s ease-in;
+    color: var(--main-color);
+}
+.left input{
+    font-size: 16px;
+    padding: 2px 5px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-family: var(--font1);
+    outline: none;
+    cursor:text;
+}
+.left .btn{
+    padding: 2px 14px;
+    font-size: 16px;
+    border: 2px solid black;
+    color: black;
+    font-weight: 400;
+    border-radius: 8px;
+    margin: 0px 15px;
+    cursor: pointer;
+    font-family: var(--font1);
+    background-color: #fcf6f2;
+}
+.left .btn:hover{
+    transition: all 0.3s ease-in;
+    background-color:#fcbe95;
+    
+}
+.content{
+    position: relative;
+}
+.content::before{
+    content: '';
+    position: absolute;
+    background-image: url('../img/11.svg');
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: -1;
+    border-radius: 8px;
+}
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 25px;
+}
+.main-content .cont1{
+    padding: 25px 35px;
+}
+.main-content .cont1 h1{
+    font-family: var(--font2);
+}
+.main-content .cont1 p{
+    font-family: var(--font1);
+    padding-top: 20px;
+}
+.main-content .cont2 img{
+    border-radius: 50%;
+    width: 290px;
+    border: 2px solid black;
+    height: 290px;
+    margin-top: 25px;
+}
+.feature{
+    background-color: rgb(236, 239, 245);
+    border-radius: 8px;
+    position: relative;
+}
+.year{
+    display: block;
+    position: absolute;
+    right: 17%;
+    top: 10%;
+}
+.year div{
+    font-size: 20px;
+    font-family: var(--font1);
+}
+.year p{
+    font-weight: 600;
+    font-size: 26px;
+    font-family: var(--font2);
+}
+.year label ,input{
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    padding:8px 30px;
+}
+.feature .feature-img  img{
+    width: 250px;
+   
+}
+.feature h1{
+    padding: 10px 15px;
+    font-family: serif;
+}
+.feature-text{
+    cursor: pointer;
+    width: 30vw;
+    font-family: var(--font1);
+    padding-left: 22px;
+    font-size: 15px;
+}
+.feature-text .author,.time{
+    padding-top: 3px;
+}
+footer{
+    height: 75px;
+    background-color: #fcbe95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: var(--font1);
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
